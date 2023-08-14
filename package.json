@@ -1,9 +1,12 @@
 {
-  "name": "signaturer",
+  "name": "ui-signature",
   "version": "0.0.1",
-  "description": "a signaturer plugin",
+  "description": "signature ui of web (Web版电子签章)",
   "author": "lin pengteng <china.linpengteng@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest --coverage",
     "build": "shx rm -rf dist && rollup --config rollup.config.ts --configPlugin typescript",

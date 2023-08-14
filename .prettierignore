@@ -2,7 +2,8 @@
 
 .gitignore
 node_modules/*
-**/dist/*
+src/plugin/*
+dist/*
 *.svg
 *.ico
 *.md
